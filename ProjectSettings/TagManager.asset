@@ -11,6 +11,7 @@ TagManager:
   - Suelo
   - Water
   - UI
+  - Superior
   - 
   - 
   - 
@@ -35,20 +36,22 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
+  - Inferior
   m_SortingLayers:
   - name: Background
     uniqueID: 2942735735
     locked: 0
+  - name: Inferior
+    uniqueID: 3507837221
+    locked: 0
+  - name: Inferior Detalles
+    uniqueID: 1560202833
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Capa 2
+  - name: Superior
     uniqueID: 1206956775
-    locked: 0
-  - name: Capa3
-    uniqueID: 3507837221
     locked: 0
   m_RenderingLayers:
   - Default

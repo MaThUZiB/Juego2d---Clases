@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: StoneTile
+      name: PlatformerTiles_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,14 +128,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2cab907f4b928b745ba11508df93d88e
-      internalID: 21300000
+      spriteID: 56581520f1241f54a881a472b3d29462
+      internalID: -1452680185
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BrickTile
+      name: PlatformerTiles_1
       rect:
         serializedVersion: 2
         x: 16
@@ -150,14 +150,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4807686958aa9e24790e08efec3d28ce
-      internalID: 21300002
+      spriteID: 0f37a2e3e560d7a44b75aabcb991937d
+      internalID: -1097518815
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BlueprintTile
+      name: PlatformerTiles_2
       rect:
         serializedVersion: 2
         x: 32
@@ -172,8 +172,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff7d7adf649684649a6d235e8be9e4f8
-      internalID: 21300004
+      spriteID: 1ef1a74782e83e4429ec54e2d9b622bc
+      internalID: 881051370
       vertices: []
       indices: 
       edges: []
@@ -190,11 +190,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      BlueprintTile: 21300004
-      BrickTile: 21300002
-      StoneTile: 21300000
+      PlatformerTiles_0: -1452680185
+      PlatformerTiles_1: -1097518815
+      PlatformerTiles_2: 881051370
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
