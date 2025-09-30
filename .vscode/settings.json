@@ -66,5 +66,5 @@
     "explorer.fileNesting.patterns": {
         "*.sln": "*.csproj"
     },
-    "dotnet.defaultSolution": "Juego2d -Clases.sln"
+    "dotnet.defaultSolution": "Juego2d---Clases.sln"
 }

@@ -51,11 +51,4 @@ public class MovimientoPersonaje : MonoBehaviour
 
         enSuelo = Physics2D.OverlapCircle(chequeoSuelo.position, radioChequeo, capaSuelo);
     }
-    
-    private void OnDrawGizmosSelected()
-    {
-        if (chequeoSuelo == null) return;
-        Gizmos.color = Color.yellow;
-        Gizmos.DrawWireSphere(chequeoSuelo.position, radioChequeo);
-    }
 }
